@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { HangmanComponent } from './components/hangman/hangman.component';
 import { DisplayComponent } from './components/display/display.component';
 import { QuestionComponent } from './components/question/question.component';
 import { KeyboardComponent } from './components/keyboard/keyboard.component';
+
+import { Component, NgModule, OnInit } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -15,3 +16,4 @@ import { KeyboardComponent } from './components/keyboard/keyboard.component';
 export class AppComponent {
   title = 'juego-hangman';
 }
+
